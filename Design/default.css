@@ -1,0 +1,701 @@
+*{
+    box-sizing:border-box;
+}
+html,body{
+
+    margin:0;
+    padding:0;
+    background:#F1EEEE;
+    font-family: 'Segoe UI';
+    
+}
+/* CSS PAGE1 */
+header{
+    background-color:#0F601A;
+    display:flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+button{
+
+    cursor:pointer;
+    border:none;
+}
+
+
+
+ /* hr{
+
+    color: white;
+    margin:100px;
+ } */
+
+
+li a:hover{
+
+    font-weight: bold;
+}
+
+li{
+
+    list-style-type: none;
+    margin:5px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI';
+
+    
+}
+
+ i{
+
+    color:white;
+    font-size:30px;
+    margin:5px;
+    
+}
+
+ul{
+
+    display:flex;
+}
+
+
+
+a{
+
+    text-decoration: none;
+    color:white;
+}
+
+.logo{
+
+    
+    width:35%;
+}
+
+.header{
+    /* border: 2px solid; */
+    margin:0;
+    padding:0;
+    background-image:url('../pitures/grandpoignee.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 550px;
+    position: relative;
+    margin:0 50px;
+
+    }
+
+.input input{
+
+    border:none;
+    border-radius: 1px;
+    border-bottom: 3px solid #BCBCBC;
+    background-color: transparent;
+    outline: 0;
+    color: #fff;
+    
+}
+
+
+.trait1{
+
+    width:1157px;
+    height:1px;
+    border:2px solid black;
+    margin:0;
+   
+ } 
+
+ .trait2{
+
+    width:1157px;
+    height:1px;
+    border:2px solid black;
+    margin:0;
+    margin-bottom: 30px;
+ }
+ .h2{
+
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 150px;
+    font-size:25px;
+    font-family: 'Segoe UI';
+    text-transform: uppercase;
+    font-weight:bold;
+ }
+ .h21{
+
+    margin-top: 10px;
+    margin-bottom:0;
+    margin-left: 150px;
+    font-size:25px;
+    font-family: 'Segoe UI';
+    text-transform: uppercase;
+    font-weight:bold;
+}
+
+.cercle{
+
+    border: 1px solid gray;
+    border-radius: 50%;
+    width:300px;
+    height:300px;
+    margin:0 45px;
+
+
+}
+
+ .carrer{
+
+    width:250px;
+    height:350px;
+    border:1px solid gray;
+    margin:35px;
+    
+
+    
+ }
+
+ .carrer button{
+    
+    position: relative;
+    bottom: -300px;
+    background-color: #0F601A;
+    color:#fff;
+    padding:10px;
+    border-radius: 10px;
+    border:none;
+    margin:0 85px;
+
+ }
+ 
+ .center1{
+
+     display: flex;
+    justify-content: center;
+ }
+
+ .center1 .color{
+
+    background-color: #0F601A;
+    color:white;
+    padding:10px;
+    font-size: 30px;
+    text-transform: uppercase;
+ }
+
+
+
+ .result{
+
+    text-align: center;
+    margin:15px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom:30px;
+    
+ }
+
+ .center1 button{
+
+    background-color: #0F601A;
+    width:200px;
+    height:35px;
+    color: #fff;
+    text-align: center;
+    margin-bottom:35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border:none;
+ }
+ .center{
+    
+    display: flex;
+    justify-content: center;
+ }
+
+
+
+.footer1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D5C9C9;
+
+}
+
+.footer1 div{
+
+    width:50%;
+}
+
+.footer1 #logo1{
+
+    width:30%;
+}
+
+.footer1 input{
+
+    padding:10px;
+    border-radius: 3px;
+    border:none;
+}
+
+.footer1 button{
+
+    padding:10px;
+    border-radius:5px;
+    background-color: #0F601A;
+    color:white;
+
+}
+
+
+.separator{
+
+    position: absolute;
+    border-radius: 5px;
+    border-left: 10px solid #0F601A;
+    height: 213px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3px;
+    left:30%;
+    top:18%;
+    text-transform: uppercase;
+    color:white;
+    font-weight: bold;
+    font-family: 'segoe UI';
+    font-weight:bold;
+    font-size:21px;
+}
+
+
+
+
+
+#logo{
+
+    
+    width: 50px;
+    padding:0;
+    margin:0 80px;
+    
+
+}
+
+#logo1{
+
+    width:100%;
+    
+    margin:15px 100px;
+    /* padding:0; */
+}
+
+/* FIN CSS PAGE1 */
+
+
+/* CSS PAGE2 */
+.inscrire{
+
+    display: flex;
+    justify-content: center;
+    height:600px;
+    align-items: center;
+}
+
+.inscrire input{
+
+    height:40px;
+    width:250px;
+    border: 1px solid grey;
+    border-radius: 30px;
+    text-align: center;
+    margin:3px;
+} 
+
+ .inscrire div{
+
+    text-align: center;
+    margin:5px;
+} 
+
+ .inscrire input[type="submit"]{
+
+    background-color: #0F601A;
+    color:#fff;
+    width:90px;
+    cursor:pointer;
+    font-size:17px;
+    border:2px solid black;
+} 
+
+ .footer2{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer2 .trait{
+
+    width:1200px;
+    height:0.1px;
+    border:0.1px solid #707070;
+} 
+
+.p{
+
+    display: flex;
+    justify-content: center;
+}
+
+#error{
+
+    background-color:red;
+    color:white;
+    text-align: center;
+    padding:5px;
+    width:500px;
+    margin-top:50px;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+#success{
+
+    background-color:#0F601A;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding:5px;
+    width:500px;
+    margin-top:50px;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.centrer{
+
+    display: flex;
+    justify-content: center;
+}
+
+.a{
+
+    text-align: center;
+    background-color: greenyellow;
+    width:150px;
+    padding:5px;
+    border-radius: 3px;
+    font-size: larger;
+}
+/* FIN CSS PAGE2 */
+
+/* CSS PAGE3 */
+
+a:hover{
+
+    font-weight: bold;
+
+}
+
+div p{
+
+    text-align:center;
+
+}
+
+p a{
+
+    text-decoration:none;
+    margin:5px;
+    color:#0F601A;
+}
+
+input[value="CONNEXION"]{
+
+    background:#0F601A;
+    color:white;
+    font-size:30px;
+    cursor:pointer;
+}
+
+input[name="email"]{
+
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+
+input[name="password"]{
+
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+    .form{
+
+        display:flex;
+        justify-content: center;
+        align-items: center;
+         height:600px ;
+        
+    }
+
+    .form input{
+
+        width:500px;
+        height:50px;
+        text-align:center;
+        margin:10px;
+        border-radius: 5px;
+        border:none;
+    } 
+    
+    .form #flex{
+    
+        display:flex;
+    }
+    
+    .form .trait{
+    
+        width:240px;
+    } 
+
+    .trait{
+
+        width:800px;
+        height:0.1px;
+        border:0.1px solid #707070;
+        margin:5px;
+    } 
+
+/* FIN CSS PAGE3 */
+
+
+/* CSS PAGE4 */
+
+.T{
+
+    display:flex;
+    justify-content: center;
+    
+}
+
+.flex{
+
+    display:flex;
+    /* border: 2px solid; */
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: row;
+}
+
+.participer.flex {
+
+    width:10%;
+}
+
+.center2{
+
+    display:flex;
+    justify-content: center;
+}
+
+.div{
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.div button{
+
+    background-color: #0F601A;
+    padding:10px;
+    color:white;
+    border-radius: 15px;
+    font-size: 15px;
+    width:100px;
+    
+
+}
+
+.participer{
+
+    display:flex;
+    flex-direction: column;
+    
+
+}
+
+.table1{
+
+    border:1px solid gray;
+    width:150px;
+    height:200px;
+    background-color: white;
+    margin: 10px;
+}
+
+
+.table{
+
+    width:1300px;
+    height:350px;
+    border:1px solid gray;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.date h2{
+
+    text-transform: uppercase;
+
+}
+
+.ajuster {
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+   
+}
+
+
+.ajuster h2{
+
+    text-align:center;
+    color:#0F601A;
+}
+
+.ajuster form{
+
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+.icon i{
+
+    color: #0F601A;
+    
+
+
+}
+/* FIN CSS PAGE4 */
+
+ /* CSS PAGE5 */
+
+    .vente{
+
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        text-transform: uppercase;
+        height:650px;
+        margin-top: 15px;
+        font-size: larger
+        ;
+    }
+ /* FIN CSS PAGE5 */
+
+ /* CSS PAGE6 */
+
+
+ .serve h2{
+
+    text-transform: uppercase;
+    margin-left:150px;
+ }
+
+ .ul{
+
+    display:block;
+    margin-left: 150px;
+    height:100px;
+    font-size: larger;
+ }
+
+ .servi{
+
+    margin-left:150px;
+    margin-top:50px;
+    font-weight: bold;
+
+ }
+
+ .servi input{
+
+     padding:15px;
+     border-radius: 5px;
+     width:500px;
+     margin:5px;
+ }
+
+ .servi button{
+
+   background-color: #0F601A;
+   color:white;
+   width:100px;
+   text-transform: uppercase;
+   padding:5px;
+   border-radius: 5px;
+ }
+
+ .serve p{
+
+    font-size: 50px;
+    font-weight: 100;
+ }
+
+ /* FIN CSS PAGE6 */
+
+
+ /* CSS PAGE8 */
+
+
+ .center3{
+
+    display:flex;
+    justify-content:center;
+    align-items: center;
+ }
+ 
+ .C{
+
+    width:1000px;
+    height:300px;
+    border:1px solid gray;
+    margin-top: 50px;
+    background-color: #fff;
+    display:flex;
+ }
+
+ .c{
+
+    width:250px;
+    height:280px;
+    border:1px solid gray;
+    margin:10px;
+ }
+
+ .C i{
+
+    color:#0F601A;
+ }
+ /* FIN CSS PAGE8 */
